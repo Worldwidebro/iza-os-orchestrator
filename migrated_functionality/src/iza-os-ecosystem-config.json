@@ -1,0 +1,237 @@
+{
+  "iza_os_ecosystem": {
+    "version": "3.0.0",
+    "gold_standard": {
+      "name": "IZA OS React Dashboard",
+      "path": "memu/super_design_dashboards",
+      "framework": "react",
+      "features": [
+        "glass-morphism-ui",
+        "ai-agent-orchestration",
+        "enterprise-security",
+        "performance-optimized",
+        "accessibility-compliant",
+        "responsive-design"
+      ]
+    },
+    "prompt_arsenal": {
+      "total_prompts": 200,
+      "categories": {
+        "glass_morphism_ui": {
+          "prompts": "1-20",
+          "description": "Frosted, floating, depth — the premium aesthetic",
+          "agent": "design:Zoe"
+        },
+        "components": {
+          "prompts": "21-40", 
+          "description": "Modular, reusable, responsive — the building blocks",
+          "agent": "design:Roo"
+        },
+        "animations": {
+          "prompts": "41-60",
+          "description": "Delight, feedback, perceived performance — the magic",
+          "agent": "motion:MotionBot"
+        },
+        "agent_orchestration": {
+          "prompts": "61-80",
+          "description": "Agents that design, code, test — you orchestrate",
+          "agent": "orchestrate:CEO"
+        },
+        "god_mode_features": {
+          "prompts": "81-100",
+          "description": "Agents that fix, optimize, evolve — no human needed",
+          "agent": "god:BotGod"
+        },
+        "sections": {
+          "prompts": "101-120",
+          "description": "Every section, pixel-perfect, glass-morphism, agent-built",
+          "agent": "design:Zoe"
+        },
+        "responsive": {
+          "prompts": "121-140",
+          "description": "Flawless on every device — touch, thumb, glance",
+          "agent": "design:Zoe"
+        },
+        "accessibility": {
+          "prompts": "141-160",
+          "description": "For everyone — keyboard, screen reader, reduced motion",
+          "agent": "accessibility:AccessibilityBot"
+        },
+        "performance": {
+          "prompts": "161-180",
+          "description": "Blazing fast — LCP < 1s, CLS = 0, FID < 100ms",
+          "agent": "performance:CacheBot"
+        },
+        "deployment": {
+          "prompts": "181-200",
+          "description": "Deploy, monitor, maintain — zero downtime, auto-heal",
+          "agent": "deploy:DeployBot"
+        }
+      }
+    },
+    "agent_hierarchy": {
+      "ceo": {
+        "name": "BotGod_v1",
+        "role": "CEO Agent",
+        "description": "Orchestrates the entire autonomous development team",
+        "sub_agents": ["cto", "cmo", "cfo"]
+      },
+      "cto": {
+        "name": "CTO Agent", 
+        "role": "Chief Technology Officer",
+        "description": "Manages engineering agents and technical architecture",
+        "sub_agents": ["devin", "smol", "claire", "aider"]
+      },
+      "cmo": {
+        "name": "CMO Agent",
+        "role": "Chief Marketing Officer", 
+        "description": "Manages growth agents and marketing strategy",
+        "sub_agents": ["jasper", "penny", "loop"]
+      },
+      "cfo": {
+        "name": "CFO Agent",
+        "role": "Chief Financial Officer",
+        "description": "Manages finance agents and financial operations", 
+        "sub_agents": ["fin", "forecast", "audit"]
+      },
+      "engineering": {
+        "devin": {
+          "name": "Devin",
+          "role": "Full-Stack Engineer",
+          "description": "Autonomous software development and architecture"
+        },
+        "smol": {
+          "name": "Smol", 
+          "role": "Frontend MVP",
+          "description": "Rapid prototyping and UI/UX development"
+        },
+        "claire": {
+          "name": "Claire",
+          "role": "In-Editor Pair Programmer", 
+          "description": "Real-time code assistance and pair programming"
+        },
+        "aider": {
+          "name": "Aider",
+          "role": "Legacy Code Whisperer",
+          "description": "Refactoring and modernizing legacy systems"
+        }
+      },
+      "growth": {
+        "jasper": {
+          "name": "Jasper",
+          "role": "Chief Content Officer",
+          "description": "Content creation and marketing automation"
+        },
+        "penny": {
+          "name": "Penny",
+          "role": "Ad Creative Director", 
+          "description": "Creative advertising and campaign management"
+        },
+        "loop": {
+          "name": "Loop",
+          "role": "Growth Loops",
+          "description": "Automated growth and retention strategies"
+        }
+      },
+      "finance": {
+        "fin": {
+          "name": "Fin",
+          "role": "Banking Operations AI",
+          "description": "Automated banking and financial transactions"
+        },
+        "forecast": {
+          "name": "Forecast",
+          "role": "FP&A Predictor",
+          "description": "Financial planning and predictive analytics"
+        },
+        "audit": {
+          "name": "Audit", 
+          "role": "Compliance Scanner",
+          "description": "Automated compliance and audit processes"
+        }
+      }
+    },
+    "glass_morphism_standards": {
+      "css_classes": {
+        "glass": {
+          "background": "rgba(255, 255, 255, 0.1)",
+          "backdrop_filter": "blur(16px)",
+          "border": "1px solid rgba(255, 255, 255, 0.2)",
+          "box_shadow": "0 8px 32px rgba(0, 0, 0, 0.1)"
+        },
+        "glass_card": {
+          "extends": "glass",
+          "border_radius": "1rem",
+          "padding": "1.5rem",
+          "transition": "all 0.3s ease",
+          "hover": {
+            "box_shadow": "0 16px 64px rgba(0, 0, 0, 0.15)",
+            "transform": "scale(1.05)"
+          }
+        }
+      },
+      "color_palette": {
+        "primary": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "secondary": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+        "success": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+        "glass_white": "rgba(255, 255, 255, 0.1)",
+        "glass_border": "rgba(255, 255, 255, 0.2)"
+      },
+      "animations": {
+        "hover_tilt": "5deg tilt, smooth transition, return on leave",
+        "scroll_fade": "elements fade up + scale on scroll",
+        "parallax": "background moves slower than foreground",
+        "typing": "hero headline types out, cursor blink",
+        "confetti": "on form submit success, confetti bursts"
+      }
+    },
+    "performance_standards": {
+      "core_web_vitals": {
+        "lcp": "< 1.5s",
+        "fid": "< 100ms", 
+        "cls": "< 0.1"
+      },
+      "optimization_targets": {
+        "bundle_size": "< 1MB",
+        "image_compression": "WebP format",
+        "lazy_loading": "enabled",
+        "code_splitting": "enabled",
+        "caching": "enabled"
+      }
+    },
+    "accessibility_standards": {
+      "wcag_level": "AA",
+      "keyboard_navigation": "enabled",
+      "screen_reader": "supported",
+      "reduced_motion": "respected",
+      "high_contrast": "supported",
+      "focus_management": "proper"
+    },
+    "deployment_standards": {
+      "platforms": ["vercel", "netlify", "aws", "gcp"],
+      "monitoring": ["langfuse", "grafana", "sentry"],
+      "auto_healing": "enabled",
+      "auto_scaling": "enabled",
+      "zero_downtime": "enabled"
+    },
+    "ai_agent_integration": {
+      "syntax": "// [AGENT:category:agent_name]",
+      "categories": [
+        "design", "motion", "orchestrate", "god", 
+        "accessibility", "performance", "deploy"
+      ],
+      "communication": "github_issues",
+      "workflow": "temporal",
+      "monitoring": "langfuse"
+    },
+    "ecosystem_metrics": {
+      "total_sites": 300,
+      "total_agents": 800,
+      "ecosystem_value": "$1.4B+",
+      "automation_level": "95%",
+      "ace_businesses": 382,
+      "n8n_workflows": 2056,
+      "repositories": 211
+    }
+  }
+}
